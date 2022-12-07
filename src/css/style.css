@@ -1,0 +1,53 @@
+body{    
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--background-color);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.painel{
+    background-color: white;
+    border-radius: 8px;
+}
+.painel .card{
+    padding: 30px 0px;
+    text-align: center;
+}
+.painel .card .pic{
+    border-radius: 50%;
+}
+.painel .card .nome{
+    padding: 30px;
+    font-size: 20px;
+}
+.painel .card span{
+    color: var(--text-color);
+}
+.painel .card .city{
+    padding-bottom: 15px;
+    color: var(--text-color);
+    font-size: 20px;
+ }
+.painel .informacoes{
+    border-top: 1px solid var(--text-color);
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.informacoes .rede{
+    padding: 25px 30px;
+}
+.informacoes .text{
+    color: var(--text-color);
+}
+
+
+@media(max-width: 425px) { 
+    .informacoes .rede{
+        padding: 15px;
+    }
+
+}
